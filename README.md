@@ -57,3 +57,25 @@ You can learn more in the
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+What is it ?
+
+Chakra UI is a component library aimed to be accesible, reusable and composable in order to create web apps.
+
+desing system has design tokens - colors spacing units. etc taht compiles to css priperties
+
+color tokens 
+
+container to keep everything in the center
+
+flex and stack to stak inner components
+
+style props 
+
+---
+
+ttitles and labels → header and text components
+
+number multiplied by 4 → 3 = 12 oixels
