@@ -12,6 +12,7 @@ import {
   useBreakpointValue,
   VStack,
 } from "@chakra-ui/react";
+import BadgeSelect from "../lib/badgeSelect/badgeSelect";
 
 const Details = () => {
   const colSpan = useBreakpointValue({ base: 2, md: 1 });
@@ -55,6 +56,9 @@ const Details = () => {
               <option value="us">United States</option>
             </Select>
           </FormControl>
+        </GridItem>
+        <GridItem colSpan={1}>
+          <BadgeSelect />
         </GridItem>
         <GridItem colSpan={2}>
           <Checkbox defaultChecked>Ship to billing address</Checkbox>
